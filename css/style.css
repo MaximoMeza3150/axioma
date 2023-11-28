@@ -265,11 +265,16 @@
 /*** Service ***/
 .service-item {
     transition: .5s;
+    background-color:#facfdc;
+    /* color: black; */
 }
 
+
 .service-item:hover {
-    margin-top: -10px;
+    margin-top: -15px;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+    background-color: #ee7297;
+    color: black;
 }
 
 .service-item .btn {
@@ -277,11 +282,12 @@
     height: 40px;
     display: inline-flex;
     align-items: center;
-    background: #FFFFFF;
+    background-color: #EFF5FF;
     border-radius: 40px;
     white-space: nowrap;
     overflow: hidden;
     transition: .5s;
+    color: black;
 }
 
 .service-item:hover .btn {
